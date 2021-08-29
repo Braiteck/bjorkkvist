@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#c5bc56">
+		<meta name="theme-color" content="#c5bc56">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1599.css" media="print, (max-width: 1599px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="absolute">
+					<div class="cont big row">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<div class="phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							<div class="sep"></div>
+							<a href="tel:+74951497007">+7 495 149 70 07</a>
+						</div>
+
+						<nav class="menu">
+							<button class="close"></button>
+
+							<div class="mob_scroll row">
+								<div class="item">
+									<a href="/" class="sub_link">
+										<svg class="icon ic_burger"><use xlink:href="images/sprite.svg#ic_burger"></use></svg>
+										<span>КАТАЛОГ</span>
+									</a>
+
+									<div class="sub_menu">
+										<div class="cont row">
+											<div class="links">
+												<div><a href="/">КНИЖНЫЕ ШКАФЫ</a></div>
+												<div><a href="/">ПИСЬМЕННАЯ МЕБЕЛЬ</a></div>
+												<div><a href="/">КОМОДЫ И ТУМБЫ</a></div>
+												<div><a href="/">МЯГКАЯ МЕБЕЛЬ</a></div>
+												<div><a href="/">ОБЕДЕННЫЕ СТОЛЫ И СТУЛЬЯ</a></div>
+												<div><a href="/">ВИТРИНЫ И БУФЕТЫ</a></div>
+												<div><a href="/">ЖУРНАЛЬНЫЕ СТОЛЫ</a></div>
+												<div><a href="/">КРОВАТИ</a></div>
+												<div><a href="/">ПЛАТЯНЫЕ ШКАФЫ</a></div>
+												<div><a href="/">ПРИКРОВАТНЫЕ ТУМБЫ</a></div>
+												<div><a href="/">ДЕКОР</a></div>
+												<div><a href="/">КОНСОЛИ</a></div>
+												<div><a href="/">ОСВЕЩЕНИЕ</a></div>
+												<div><a href="/" class="bg">СПЕЦПРЕДЛОЖЕНИЯ</a></div>
+											</div>
+
+											<div class="image">
+												<img data-src="images/tmp/sub_menu_img.jpg" alt="" class="lozad">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item">
+									<a href="/">О КОМПАНИИ</a>
+								</div>
+
+								<div class="item">
+									<a href="/">БРЕНДЫ</a>
+								</div>
+
+								<div class="item">
+									<a href="/">
+										<svg class="icon ic_discount"><use xlink:href="images/sprite.svg#ic_discount"></use></svg>
+										<span>DISCOUNT</span>
+									</a>
+								</div>
+
+								<div class="item">
+									<a href="/">САЛОНЫ</a>
+								</div>
+							</div>
+						</nav>
+
+						<div class="info">
+							<div class="location">
+								<div class="link">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_location2"></use></svg>
+									</div>
+									<span>Ваш город <u>Москва</u></span>
+								</div>
+
+								<div class="dropdown">
+									<div><button>Москва</button></div>
+									<div class="sep"></div>
+									<div><button>Екатеринбург</button></div>
+									<div class="sep"></div>
+									<div><button>Краснодар</button></div>
+								</div>
+							</div>
+
+							<div class="search modal_cont">
+								<button class="link mini_modal_btn" data-modal-id="#search_modal">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_search2"></use></svg>
+									</div>
+									<span>Поиск</span>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<div class="cont">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="Начните поиск...">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+											</button>
+
+											<div class="sep"></div>
+
+											<button type="button" class="close_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="favorite">
+								<a href="/" class="link">
+									<div class="icon">
+										<div class="count">23</div>
+										<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</div>
+									<span>Избранное</span>
+								</a>
+							</div>
+
+							<div class="cart">
+								<a href="/" class="link">
+									<div class="icon">
+										<div class="count">3</div>
+										<svg><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_cart2"></use></svg>
+									</div>
+									<span>Корзина</span>
+								</a>
+							</div>
+
+							<button class="mob_menu_btn link">
+								<div class="icon"><span></span></div>
+								<span>Меню</span>
+							</button>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="category_head">
+					<div class="image">
+						<img data-src="images/tmp/category_page_head_img.jpg" alt="" class="lozad">
+					</div>
+
+					<div class="info">
+						<h1 class="title">Книжные шкафы<br> и стеллажи</h1>
+					</div>
+				</section>
+
+
+				<section class="page_head mob_hide">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<a href="/">Каталог</a> <span class="sep"></span>
+							<span class="current">Книжные шкафы и стеллажи</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="category_info">
+					<div class="cont">
+						<div class="description text_block">
+							<p><b>Книги хранят поэзию слов, художественный замысел, мечты и желания, историю и фантазии великих поэтов и писателей, философов и учёных. Наша же задача сохранить эту сказочную незабываемую атмосферу, запах книжного переплёта, бумажных страниц и типографских чернил от влияния времени.</b></p>
+
+							<p>Книжные шкафы, полки и стеллажи производятся из высококачественной берёзы. Они рассчитаны на долгие годы и со временем не утратят своей ценности, наоборот, как всякий природный материал, дерево «благородно» старится.  Продуманная конструкция дверей надёжно защитит книги и другие ценные экземпляры Вашей коллекции. Купить мебель для кабинета, книжные шкафы и стеллажи для книг со стеклянными дверцами, вы можете в нашем интернет-магазине, а также в наших салонах в Москве, Краснодаре, Екатеринбурге, Казани и других городах. Всегда в наличии и на заказ прямые, угловые книжные шкафы для домашнего и рабочего кабинета и библиотеки.</p>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="filter">
+					<div class="cont">
+						<form action="">
+							<div class="item modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#filter_item1_modal">Коллекция</button>
+
+								<div class="mini_modal" id="filter_item1_modal">
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check1">
+										<label for="group1_check1">BJORKKVIST</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check2" checked>
+										<label for="group1_check2">GUSTAV</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check3">
+										<label for="group1_check3">VILLINKI</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check4">
+										<label for="group1_check4">ETHNICRAFT Furniture</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check5">
+										<label for="group1_check5">ETHNICRAFT Accessories</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check6">
+										<label for="group1_check6">VILMERS</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check7">
+										<label for="group1_check7">Label Vandenberg</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check8">
+										<label for="group1_check8">Pohjanmaan</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="item modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#filter_item2_modal">Цвета</button>
+
+								<div class="mini_modal" id="filter_item2_modal">
+									<div class="colors row">
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check1" checked>
+											<label for="group2_check1">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color1.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check2">
+											<label for="group2_check2">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color2.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check3">
+											<label for="group2_check3">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color3.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check4">
+											<label for="group2_check4">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color4.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check5">
+											<label for="group2_check5">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color5.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check6">
+											<label for="group2_check6">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color6.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check7">
+											<label for="group2_check7">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color7.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check8">
+											<label for="group2_check8">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color8.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check9">
+											<label for="group2_check9">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color9.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check10">
+											<label for="group2_check10">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color10.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check11">
+											<label for="group2_check11">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color11.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check12">
+											<label for="group2_check12">
+												<div class="thumb">
+													<img data-src="images/tmp/product_color12.jpg" alt="" class="lozad">
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<input type="checkbox" name="sale" id="sale_check">
+								<label for="sale_check">Распродажа</label>
+							</div>
+
+							<div class="submit">
+								<button type="submit" class="submit_btn">ПОДОБРАТЬ</button>
+								<button type="reset" class="reset_btn">СБРОСИТЬ</button>
+							</div>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="products_head">
+					<div class="cont row">
+						<div class="sort">
+							<div class="name">Сортировать:</div>
+
+							<select name="">
+								<option value="1" selected>Цена по возрастанию</option>
+								<option value="2">Цена по убыванию</option>
+								<option value="3">По популярности</option>
+								<option value="4">По наличию</option>
+							</select>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products">
+					<div class="cont">
+						<div class="row">
+							<div class="product">
+								<div class="sticker special">СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ</div>
+
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 14</div>
+
+								<div class="product_name">
+									<a href="/">Секционный шкаф для книг</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div class="old">500 000 руб.</div>
+									<div>478 170 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="sticker discount">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_discount"></use></svg>
+								</div>
+
+								<div class="favorite">
+									<button class="btn active">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb2.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 6</div>
+
+								<div class="product_name">
+									<a href="/">Секционный шкаф для книг</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div>123 840 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="sticker popular">ПОПУЛЯРНОЕ</div>
+
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb3.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 16</div>
+
+								<div class="product_name">
+									<a href="/">Домашняя библиотека классик</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div>123 840 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="sticker new">NEW</div>
+
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb4.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 5</div>
+
+								<div class="product_name">
+									<a href="/">Секционный шкаф для книг</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div>304 200 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb5.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 15</div>
+
+								<div class="product_name">
+									<a href="/">Секционный шкаф-витрина для книг</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div>654 570 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb6.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 22</div>
+
+								<div class="product_name">
+									<a href="/">Высокий и низкий книжные стеллажи</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div>243 810 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb6.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 22</div>
+
+								<div class="product_name">
+									<a href="/">Высокий и низкий книжные стеллажи</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div>243 810 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb7.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 24</div>
+
+								<div class="product_name">
+									<a href="/">Книжные полки настенные</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div>365 040 руб.</div>
+								</div>
+							</div>
+
+
+							<div class="product">
+								<div class="sticker special">СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ</div>
+
+								<div class="favorite">
+									<button class="btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+								</div>
+
+								<a href="/" class="thumb">
+									<img data-src="images/tmp/product_thumb8.jpg" alt="" class="lozad">
+								</a>
+
+								<div class="example">Bjorkkvist, Пример No 17</div>
+
+								<div class="product_name">
+									<a href="/">Домашняя библиотека модерн</a>
+								</div>
+
+								<div class="dimensions">
+									<div>
+										<div class="name">Высота</div>
+										<div class="val">185 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Ширина</div>
+										<div class="val">35 см</div>
+									</div>
+
+									<div class="sep"></div>
+
+									<div>
+										<div class="name">Глубина</div>
+										<div class="val">77 см</div>
+									</div>
+								</div>
+
+								<div class="price">
+									<div class="old">650 850 руб.</div>
+									<div>604 530 руб.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="load_more">
+						<button class="btn">ПОСМОТРЕТЬ ЕЩЕ</button>
+					</div>
+				</section>
+
+
+				<section class="consult_block min_margin">
+					<div class="cont big row">
+						<div class="image">
+							<img data-src="images/tmp/consult_block_img.jpg" alt="" class="lozad">
+						</div>
+
+						<div class="data">
+							<div class="block_title">КОНСУЛЬТАЦИЯ<br> ДИЗАЙНЕРА</div>
+
+							<div class="text_block">
+								<p>Наши дизайнеры с удовольствием и совершенно бесплатно помогут вам с решением абсолютно любой задачи, как в обновлении интерьера, так и в декорировании. Мы точно знаем, как сделать пространство гармоничным! Интересно?</p>
+							</div>
+
+							<button class="btn modal_btn" data-content="#consult_modal">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="categories_slider center_line">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title with_line">РЕКОМЕНДУЕМ</div>
+						</div>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/categories_slider_thumb2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Книжные шкафы</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/categories_slider_thumb2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Витрины и буфеты</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/categories_slider_thumb2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Мягкая мебель</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/categories_slider_thumb2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Книжные шкафы</div>
+									</a>
+								</div>
+
+								<div class="slide swiper-slide">
+									<a href="/" class="category">
+										<div class="thumb">
+											<img data-src="images/tmp/categories_slider_thumb2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Витрины и буфеты</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="links">
+							<div class="title">КОЛЛЕКЦИИ</div>
+
+							<div class="items">
+								<div><a href="/">BJORKKVIST</a></div>
+								<div><a href="/">VILLINKI</a></div>
+								<div><a href="/">ETHNICRAFT FURNITURE</a></div>
+								<div><a href="/">ETHNICRAFT ACCESSORIES</a></div>
+								<div><a href="/">VILMERS</a></div>
+								<div><a href="/">LABEL</a></div>
+								<div><a href="/">POHJANMAAN</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">КАТАЛОГ</div>
+
+							<div class="items">
+								<div><a href="/">КНИЖНЫЕ ШКАФЫ И СТЕЛЛАЖИ</a></div>
+								<div><a href="/">ПИСЬМЕННЫЕ СТОЛЫ И СТ УЛЬЯ</a></div>
+								<div><a href="/">МЯГКАЯ МЕБЕЛЬ</a></div>
+								<div><a href="/">КОМОДЫ И Т УМБЫ</a></div>
+								<div><a href="/">ВИТРИНЫ И БУФЕТЫ</a></div>
+								<div><a href="/">ОБЕДЕННЫЕ СТОЛЫ И СТ УЛЬЯ</a></div>
+								<div><a href="/">ЖУРНАЛЬНЫЕ СТОЛЫ</a></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col_center">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+						</div>
+
+						<button class="boss_message_btn modal_btn" data-content="#boss_message_modal">НАПИСАТЬ ДИРЕКТОРУ</button>
+					</div>
+
+
+					<div class="col_right">
+						<div class="links">
+							<div class="items">
+								<div><a href="/">СЕРВИС</a></div>
+								<div><a href="/">ДИЛЕРАМ</a></div>
+								<div><a href="/">ДИЗАЙНЕРАМ</a></div>
+								<div><a href="/">БЛОГ</a></div>
+								<div><a href="/">САЛОНЫ</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="items">
+								<div><a href="/">СПОСОБЫ ОПЛАТЫ</a></div>
+								<div><a href="/">О КОМПАНИИ</a></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="copyright">
+						1993–2020 Сеть салонов Bjorkkvist<br>
+						Мы используем cookies для улучшения пользовательского опыта. Оставаясь на сайте вы соглашаетесь с <a href="/">Положением о персональных данных</a>
+					</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">Разработка сайта — <span>Точка.ру</span></a>
+					</div>
+				</div>
+
+
+				<img data-src="images/bg_footer.png" alt="" class="bg lozad">
+			</footer>
+
+
+			<div class="fixed_links">
+				<a href="/">
+					<div class="icon icon1">
+						<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon2">
+						<svg><use xlink:href="images/sprite.svg#ic_download2"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon3">
+						<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon4">
+						<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon5">
+						<svg><use xlink:href="images/sprite.svg#ic_roulette"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+			</div>
+
+
+			<div class="buttonUp">
+				<button>
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_up"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="consult_modal">
+			<div class="modal_title">Закажите консультацию</div>
+
+			<div class="modal_data">
+				<form action="" class="form custom_submit">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Ваше имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail *">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<select name="">
+								<option value="0" data-display="Выберите город"></option>
+								<option value="1">Вариант 1</option>
+								<option value="2">Вариант 2</option>
+								<option value="3">Вариант 3</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Сообщение"></textarea>
+						</div>
+					</div>
+
+					<div class="line agree">
+						Нажимая на кнопку, я соглашаюсь на обработку персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="boss_message_modal">
+			<div class="modal_title">Написать директору</div>
+
+			<div class="modal_data">
+				<form action="" class="form custom_submit">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input error" placeholder="Ваше имя">
+							<div class="error_text">Это поле необходимо заполнить</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail *">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Сообщение"></textarea>
+						</div>
+					</div>
+
+					<div class="line agree">
+						Нажимая на кнопку, я соглашаюсь на обработку персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="success_modal">
+			<div class="modal_title">Ваше сообщение отправлено</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

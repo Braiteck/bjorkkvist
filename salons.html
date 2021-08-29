@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#c5bc56">
+		<meta name="theme-color" content="#c5bc56">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)">
+		<link rel="stylesheet" href="css/response_1599.css" media="print, (max-width: 1599px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont big row">
+						<a href="/" class="logo">
+							<img src="images/logo2.svg" alt="">
+						</a>
+
+						<div class="phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+							<div class="sep"></div>
+							<a href="tel:+74951497007">+7 495 149 70 07</a>
+						</div>
+
+						<nav class="menu">
+							<button class="close"></button>
+
+							<div class="mob_scroll row">
+								<div class="item">
+									<a href="/" class="sub_link">
+										<svg class="icon ic_burger"><use xlink:href="images/sprite.svg#ic_burger"></use></svg>
+										<span>КАТАЛОГ</span>
+									</a>
+
+									<div class="sub_menu">
+										<div class="cont row">
+											<div class="links">
+												<div><a href="/">КНИЖНЫЕ ШКАФЫ</a></div>
+												<div><a href="/">ПИСЬМЕННАЯ МЕБЕЛЬ</a></div>
+												<div><a href="/">КОМОДЫ И ТУМБЫ</a></div>
+												<div><a href="/">МЯГКАЯ МЕБЕЛЬ</a></div>
+												<div><a href="/">ОБЕДЕННЫЕ СТОЛЫ И СТУЛЬЯ</a></div>
+												<div><a href="/">ВИТРИНЫ И БУФЕТЫ</a></div>
+												<div><a href="/">ЖУРНАЛЬНЫЕ СТОЛЫ</a></div>
+												<div><a href="/">КРОВАТИ</a></div>
+												<div><a href="/">ПЛАТЯНЫЕ ШКАФЫ</a></div>
+												<div><a href="/">ПРИКРОВАТНЫЕ ТУМБЫ</a></div>
+												<div><a href="/">ДЕКОР</a></div>
+												<div><a href="/">КОНСОЛИ</a></div>
+												<div><a href="/">ОСВЕЩЕНИЕ</a></div>
+												<div><a href="/" class="bg">СПЕЦПРЕДЛОЖЕНИЯ</a></div>
+											</div>
+
+											<div class="image">
+												<img data-src="images/tmp/sub_menu_img.jpg" alt="" class="lozad">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item">
+									<a href="/">О КОМПАНИИ</a>
+								</div>
+
+								<div class="item">
+									<a href="/">БРЕНДЫ</a>
+								</div>
+
+								<div class="item">
+									<a href="/">
+										<svg class="icon ic_discount"><use xlink:href="images/sprite.svg#ic_discount"></use></svg>
+										<span>DISCOUNT</span>
+									</a>
+								</div>
+
+								<div class="item">
+									<a class="active">САЛОНЫ</a>
+								</div>
+							</div>
+						</nav>
+
+						<div class="info">
+							<div class="location">
+								<div class="link">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_location2"></use></svg>
+									</div>
+									<span>Ваш город <u>Москва</u></span>
+								</div>
+
+								<div class="dropdown">
+									<div><button>Москва</button></div>
+									<div class="sep"></div>
+									<div><button>Екатеринбург</button></div>
+									<div class="sep"></div>
+									<div><button>Краснодар</button></div>
+								</div>
+							</div>
+
+							<div class="search modal_cont">
+								<button class="link mini_modal_btn" data-modal-id="#search_modal">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_search2"></use></svg>
+									</div>
+									<span>Поиск</span>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<div class="cont">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="Начните поиск...">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+											</button>
+
+											<div class="sep"></div>
+
+											<button type="button" class="close_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="favorite">
+								<a href="/" class="link">
+									<div class="icon">
+										<div class="count">23</div>
+										<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</div>
+									<span>Избранное</span>
+								</a>
+							</div>
+
+							<div class="cart">
+								<a href="/" class="link">
+									<div class="icon">
+										<div class="count">3</div>
+										<svg><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										<svg><use xlink:href="images/sprite.svg#ic_cart2"></use></svg>
+									</div>
+									<span>Корзина</span>
+								</a>
+							</div>
+
+							<button class="mob_menu_btn link">
+								<div class="icon"><span></span></div>
+								<span>Меню</span>
+							</button>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="page_head min_margin">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">Салоны</span>
+						</div>
+
+						<h1 class="page_title">Салоны</h1>
+					</div>
+				</section>
+
+
+				<section class="salons tabs_container">
+					<div class="cont">
+						<div class="tabs">
+							<button data-content="#salons_tab1" data-level="level1">МОСКВА И МО</button>
+							<button data-content="#salons_tab2" data-level="level1" class="active">ВСЯ РОССИЯ</button>
+						</div>
+					</div>
+
+
+					<div class="tab_content level1" id="salons_tab1">
+						<div class="salons_map">
+							<div id="map1"></div>
+						</div>
+
+						<div class="cont">
+							<div class="salons_head">
+								<div class="city">
+									<div class="name">Выберите свой город:</div>
+									<select name="">
+										<option value="1" selected>Белгород</option>
+										<option value="2">Вариант 2</option>
+										<option value="3">Вариант 3</option>
+										<option value="4">Вариант 4</option>
+									</select>
+								</div>
+
+								<div class="exp">
+									<div>
+										<img src="images/ic_salons_exp.svg" alt="">
+										<span>Фирменный салон</span>
+									</div>
+
+									<div>
+										<img src="images/ic_salons_exp2.svg" alt="">
+										<span>Салон дилера</span>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="salons_row row">
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp.svg" alt="">
+											<span>Фирменный<br> салон</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+
+
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp2.svg" alt="">
+											<span>Салон<br> дилера</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb2.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+
+
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp.svg" alt="">
+											<span>Фирменный<br> салон</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb3.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+
+
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp2.svg" alt="">
+											<span>Салон<br> дилера</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb4.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="tab_content level1 active" id="salons_tab2">
+						<div class="salons_map">
+							<div id="map2"></div>
+						</div>
+
+						<div class="cont">
+							<div class="salons_head">
+								<div class="city">
+									<div class="name">Выберите свой город:</div>
+									<select name="">
+										<option value="1" selected>Белгород</option>
+										<option value="2">Вариант 2</option>
+										<option value="3">Вариант 3</option>
+										<option value="4">Вариант 4</option>
+									</select>
+								</div>
+
+								<div class="exp">
+									<div>
+										<img src="images/ic_salons_exp.svg" alt="">
+										<span>Фирменный салон</span>
+									</div>
+
+									<div>
+										<img src="images/ic_salons_exp2.svg" alt="">
+										<span>Салон дилера</span>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="salons_row row">
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp.svg" alt="">
+											<span>Фирменный<br> салон</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+
+
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp2.svg" alt="">
+											<span>Салон<br> дилера</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb2.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+
+
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp.svg" alt="">
+											<span>Фирменный<br> салон</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb3.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+
+
+								<div class="salon">
+									<a href="/" class="thumb">
+										<div class="exp">
+											<img src="images/ic_salons_exp2.svg" alt="">
+											<span>Салон<br> дилера</span>
+										</div>
+
+										<img data-src="images/tmp/salon_thumb4.jpg" alt="" class="lozad">
+									</a>
+
+									<div class="info">
+										<div class="loсations">
+											<div><b>г. Белгород,</b> МТК «Гранд»</div>
+											<div><a href="/"><b>г. Химки,</b> Бутаково, 4, 1 этаж, вход 3</a></div>
+										</div>
+
+										<div class="get_directions">
+											<a href="/">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+												</div>
+												<span>Проложить маршрут</span>
+											</a>
+										</div>
+
+										<div class="phone">
+											<a href="tel:+74951497007">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+												</div>
+												<span>+7 495 149-70-07</span>
+											</a>
+										</div>
+
+										<div class="email">
+											<a href="mailto:info@bjorkkvist.ru">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+												</div>
+												<span>info@bjorkkvist.ru</span>
+											</a>
+										</div>
+									</div>
+
+									<button class="order_btn modal_btn" data-content="#consult_modal">ЗАПИСАТЬСЯ В САЛОН</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="action_block">
+					<div class="cont">
+						<div class="title">Не нашли свой город?<br> Интересует информация о наличии, заказе или доставке?</div>
+
+						<div class="desc">Наппишите нам</div>
+
+						<button class="btn modal_btn" data-content="#consult_modal">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+					</div>
+				</section>
+			</div>
+
+
+			<footer class="no_margin">
+				<div class="cont row">
+					<div class="col_left">
+						<div class="links">
+							<div class="title">КОЛЛЕКЦИИ</div>
+
+							<div class="items">
+								<div><a href="/">BJORKKVIST</a></div>
+								<div><a href="/">VILLINKI</a></div>
+								<div><a href="/">ETHNICRAFT FURNITURE</a></div>
+								<div><a href="/">ETHNICRAFT ACCESSORIES</a></div>
+								<div><a href="/">VILMERS</a></div>
+								<div><a href="/">LABEL</a></div>
+								<div><a href="/">POHJANMAAN</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">КАТАЛОГ</div>
+
+							<div class="items">
+								<div><a href="/">КНИЖНЫЕ ШКАФЫ И СТЕЛЛАЖИ</a></div>
+								<div><a href="/">ПИСЬМЕННЫЕ СТОЛЫ И СТ УЛЬЯ</a></div>
+								<div><a href="/">МЯГКАЯ МЕБЕЛЬ</a></div>
+								<div><a href="/">КОМОДЫ И Т УМБЫ</a></div>
+								<div><a href="/">ВИТРИНЫ И БУФЕТЫ</a></div>
+								<div><a href="/">ОБЕДЕННЫЕ СТОЛЫ И СТ УЛЬЯ</a></div>
+								<div><a href="/">ЖУРНАЛЬНЫЕ СТОЛЫ</a></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col_center">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+						</div>
+
+						<button class="boss_message_btn modal_btn" data-content="#boss_message_modal">НАПИСАТЬ ДИРЕКТОРУ</button>
+					</div>
+
+
+					<div class="col_right">
+						<div class="links">
+							<div class="items">
+								<div><a href="/">СЕРВИС</a></div>
+								<div><a href="/">ДИЛЕРАМ</a></div>
+								<div><a href="/">ДИЗАЙНЕРАМ</a></div>
+								<div><a href="/">БЛОГ</a></div>
+								<div><a href="/">САЛОНЫ</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="items">
+								<div><a href="/">СПОСОБЫ ОПЛАТЫ</a></div>
+								<div><a href="/">О КОМПАНИИ</a></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="copyright">
+						1993–2020 Сеть салонов Bjorkkvist<br>
+						Мы используем cookies для улучшения пользовательского опыта. Оставаясь на сайте вы соглашаетесь с <a href="/">Положением о персональных данных</a>
+					</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">Разработка сайта — <span>Точка.ру</span></a>
+					</div>
+				</div>
+
+
+				<img data-src="images/bg_footer.png" alt="" class="bg lozad">
+			</footer>
+
+
+			<div class="fixed_links">
+				<a href="/">
+					<div class="icon icon1">
+						<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon2">
+						<svg><use xlink:href="images/sprite.svg#ic_download2"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon3">
+						<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon4">
+						<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+
+				<a href="/">
+					<div class="icon icon5">
+						<svg><use xlink:href="images/sprite.svg#ic_roulette"></use></svg>
+					</div>
+					<div class="text">Подписаться на новостную рассылку</div>
+				</a>
+			</div>
+
+
+			<div class="buttonUp">
+				<button>
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_up"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="consult_modal">
+			<div class="modal_title">Закажите консультацию</div>
+
+			<div class="modal_data">
+				<form action="" class="form custom_submit">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Ваше имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail *">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<select name="">
+								<option value="0" data-display="Выберите город"></option>
+								<option value="1">Вариант 1</option>
+								<option value="2">Вариант 2</option>
+								<option value="3">Вариант 3</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Сообщение"></textarea>
+						</div>
+					</div>
+
+					<div class="line agree">
+						Нажимая на кнопку, я соглашаюсь на обработку персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="boss_message_modal">
+			<div class="modal_title">Написать директору</div>
+
+			<div class="modal_data">
+				<form action="" class="form custom_submit">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input error" placeholder="Ваше имя">
+							<div class="error_text">Это поле необходимо заполнить</div>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail *">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Сообщение"></textarea>
+						</div>
+					</div>
+
+					<div class="line agree">
+						Нажимая на кнопку, я соглашаюсь на обработку персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="success_modal">
+			<div class="modal_title">Ваше сообщение отправлено</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+
+		<!-- Яндекс карты -->
+		<script src="http://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+		<script>
+			$(window).on('load', () => {
+				ymaps.ready(() => {
+					// Карта 1
+					let myMap = new ymaps.Map('map1', {
+						center: [55.753220, 37.622513],
+						zoom: 10,
+						controls: []
+					})
+
+					// Карта 1 - Кастомный маркер
+					let myPlacemark1_1 = new ymaps.Placemark([55.753220, 37.622513], {}, {
+						iconLayout : 'default#image',
+						iconImageHref : 'images/ic_map_marker.png',
+						iconImageSize : [50, 59],
+						iconImageOffset : [-25, -30]
+					})
+
+					// Карта 1 - Кастомный маркер 2
+					let myPlacemark1_2 = new ymaps.Placemark([55.658550, 37.504766], {}, {
+						iconLayout : 'default#image',
+						iconImageHref : 'images/ic_map_marker2.png',
+						iconImageSize : [50, 59],
+						iconImageOffset : [-25, -30]
+					})
+
+					myMap.geoObjects.add(myPlacemark1_1).add(myPlacemark1_2)
+
+					myMap.controls.add('zoomControl', {
+						position : {
+							right : '20px',
+							top   : '20px'
+						}
+					})
+
+					myMap.behaviors.disable('scrollZoom')
+
+
+					// Карта 2
+					let myMap2 = new ymaps.Map('map2', {
+						center: [55.753220, 37.622513],
+						zoom: 10,
+						controls: []
+					})
+
+					// Карта 2 - Кастомный маркер
+					let myPlacemark2_1 = new ymaps.Placemark([55.753220, 37.622513], {}, {
+						iconLayout : 'default#image',
+						iconImageHref : 'images/ic_map_marker.png',
+						iconImageSize : [50, 59],
+						iconImageOffset : [-25, -30]
+					})
+
+					// Карта 2 - Кастомный маркер 2
+					let myPlacemark2_2 = new ymaps.Placemark([55.658550, 37.504766], {}, {
+						iconLayout : 'default#image',
+						iconImageHref : 'images/ic_map_marker2.png',
+						iconImageSize : [50, 59],
+						iconImageOffset : [-25, -30]
+					})
+
+					myMap2.geoObjects.add(myPlacemark2_1).add(myPlacemark2_2)
+
+					myMap2.controls.add('zoomControl', {
+						position : {
+							right : '20px',
+							top   : '20px'
+						}
+					})
+
+					myMap2.behaviors.disable('scrollZoom')
+				})
+			})
+		</script>
+	</body>
+</html>

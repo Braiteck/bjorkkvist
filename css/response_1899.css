@@ -1,0 +1,408 @@
+@media print, (max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 60px;
+    }
+
+
+    .cont.big
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        height: 44px;
+    }
+
+
+    header .phone
+    {
+        margin-left: 40px;
+    }
+
+    header .phone .sep
+    {
+        display: none;
+    }
+
+
+    header .menu
+    {
+        margin-left: 40px;
+    }
+
+    header .menu .item + .item
+    {
+        margin-left: 32px;
+    }
+
+
+    header .info > * + *
+    {
+        margin-left: 36px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 52px;
+        padding-top: 28px;
+    }
+
+    .page_head.min_margin
+    {
+        margin-bottom: 44px;
+    }
+
+
+    .page_title
+    {
+        line-height: calc(var(--font_size_title) + 12px);
+
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: calc(var(--font_size_title) + 16px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*------------
+        Salons
+    ------------*/
+    .salons .tabs
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*----------------------
+        Collection block
+    ----------------------*/
+    .collection_block:before
+    {
+        margin-left: 52px;
+    }
+
+
+    .collection_block .image
+    {
+        width: calc(50% - 52px);
+    }
+
+
+    .collection_block .data
+    {
+        width: calc(50% + 52px);
+        padding: 0 104px;
+    }
+
+
+    .collection_block .data .block_title
+    {
+        line-height: calc(var(--font_size_title) + 16px);
+    }
+
+    .collection_block .data .text_block
+    {
+        width: 624px;
+    }
+
+
+
+    /*----------------------
+        Model desc block
+    ----------------------*/
+    .model_desc_block
+    {
+        margin-top: 120px;
+    }
+
+
+    .model_desc_block .data
+    {
+        padding: 0 52px 0 140px;
+    }
+
+    .model_desc_block .data .block_title
+    {
+        line-height: calc(var(--font_size_title) + 16px);
+    }
+
+
+
+    /*-------------------
+        Consult block
+    -------------------*/
+    .consult_block
+    {
+        margin-top: 120px;
+    }
+
+
+    .consult_block .data
+    {
+        padding: 96px 80px;
+    }
+
+    .consult_block .data .block_title
+    {
+        line-height: calc(var(--font_size_title) + 16px);
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .notice
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .block_title
+    {
+        font-size: 52px;
+        line-height: 64px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .checkout_info .form .notice
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Category head
+    -------------------*/
+    .category_head .info .title
+    {
+        font-size: 90px;
+        line-height: 100px;
+
+        margin-top: -52px;
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info .description
+    {
+        padding-top: 44px;
+    }
+
+
+
+    /*----------------
+        Brand head
+    ----------------*/
+    .brand_head .info .title
+    {
+        font-size: 90px;
+        line-height: 100px;
+
+        margin-top: -52px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info .description
+    {
+        padding-top: 44px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block:before
+    {
+        margin-left: 52px;
+    }
+
+
+    .about_block .image
+    {
+        width: calc(50% - 52px);
+    }
+
+
+    .about_block .data
+    {
+        width: calc(50% + 52px);
+        padding: 0 104px;
+    }
+
+
+    .about_block .data .block_title
+    {
+        line-height: calc(var(--font_size_title) + 16px);
+    }
+
+    .about_block .data .text_block
+    {
+        width: 624px;
+    }
+
+
+
+    /*-------------------
+        Hictory block
+    -------------------*/
+    .history_block
+    {
+        margin-top: 120px;
+    }
+
+
+    .history_block .data
+    {
+        padding: 0 52px 0 140px;
+    }
+
+    .history_block .data:before
+    {
+        width: 112px;
+        height: 48px;
+    }
+
+    .history_block .data .block_title
+    {
+        line-height: calc(var(--font_size_title) + 16px);
+    }
+
+
+
+    /*-----------------------
+        Categories slider
+    -----------------------*/
+    .categories_slider.two_lines:before
+    {
+        margin-left: -52px;
+    }
+
+    .categories_slider.two_lines:after
+    {
+        margin-left: 52px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .info
+    {
+        padding: 0 64px 92px;
+    }
+
+    .main_slider .info .title
+    {
+        font-size: 90px;
+        line-height: 100px;
+
+        margin-top: -52px;
+    }
+
+    .main_slider .info .desc
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        width: 464px;
+    }
+
+    .main_slider .info .link
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*--------------------
+        Articles block
+    --------------------*/
+    .articles_block:after
+    {
+        margin-left: -52px;
+    }
+
+    .articles_block:before
+    {
+        margin-left: 52px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
