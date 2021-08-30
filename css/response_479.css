@@ -322,6 +322,11 @@
         width: 100%;
     }
 
+    .product_info .data .color .field
+    {
+        width: calc(16.666% - 2px);
+    }
+
 
     .product_info .data .buy
     {
@@ -333,6 +338,11 @@
         margin-left: auto;
     }
 
+    .product_info .data .buy .row > * + *
+    {
+        margin-left: 24px;
+    }
+
 
     .product_info .data .amount .input
     {
@@ -340,10 +350,67 @@
     }
 
 
+    .product_info .data .price
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
     .product_info .data .buy_btn
     {
-        width: calc(100% - 170px);
+        width: calc(100% - 184px);
         height: 48px;
+    }
+
+
+
+    .product_info .composition .item
+    {
+        flex-wrap: wrap;
+    }
+
+    .product_info .composition .name
+    {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-left: 0;
+    }
+
+    .product_info .composition .thumb,
+    .product_info .composition .amount,
+    .product_info .composition .price
+    {
+        order: 2;
+    }
+
+    .product_info .composition .thumb
+    {
+        height: 48px;
+    }
+
+    .product_info .composition .amount
+    {
+        margin-left: auto;
+    }
+
+    .product_info .composition .price
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .product_info .data .buy .favorite
+    {
+        width: 100%;
+    }
+
+    .product_info .data .buy .check_availability
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
     }
 
 

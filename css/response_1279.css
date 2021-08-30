@@ -364,7 +364,7 @@
 
     .product_info .images
     {
-        width: calc(100% - 424px);
+        width: calc(100% - 452px);
     }
 
     .product_info .images .big
@@ -395,9 +395,18 @@
     }
 
 
+    .product_info .images .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        margin-top: 32px;
+    }
+
+
     .product_info .data
     {
-        width: 392px;
+        width: 420px;
     }
 
 
@@ -457,6 +466,30 @@
 
         margin-top: 20px;
         padding-bottom: 20px;
+    }
+
+
+
+    .product_info .composition .item + .item
+    {
+        margin-top: 16px;
+    }
+
+
+    .product_info .composition .price
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        margin: 0 0 0 20px;
+    }
+
+
+
+    .product_info .data .custom_size
+    {
+        margin-bottom: 28px;
+        padding-bottom: 24px;
     }
 
 

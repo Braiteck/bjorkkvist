@@ -462,14 +462,41 @@
     }
 
 
+    .product_info .data .color
+    {
+        width: 100%;
+    }
+
     .product_info .data .color .field
     {
-        width: calc(16.666% - 2px);
+        width: calc(12.5% - 2px);
     }
 
     .product_info .data .color label
     {
         padding: 2px;
+    }
+
+
+
+    .product_info .images .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .product_info .composition .name
+    {
+        margin-left: 12px;
+    }
+
+    .product_info .composition .price
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-left: 20px;
     }
 
 

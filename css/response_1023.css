@@ -393,6 +393,44 @@
     }
 
 
+    .product_info .composition .name
+    {
+        margin-left: 20px;
+    }
+
+    .product_info .composition .price
+    {
+        margin: 0 0 0 24px;
+    }
+
+
+    .product_info .data .custom_size
+    {
+        margin-bottom: 4px;
+        padding-bottom: 20px;
+    }
+
+    .product_info .data .custom_size .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .product_info .data .buy .check_availability
+    {
+        width: auto;
+    }
+
+
+    .product_info .line
+    {
+        margin-top: 32px;
+    }
+
+
 
     /*----------------------
         Collection block
